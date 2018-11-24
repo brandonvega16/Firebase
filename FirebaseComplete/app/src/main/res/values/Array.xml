@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="OS">
+        <item>Windows 7</item>
+        <item>Windows 8</item>
+        <item>Windows 10</item>
+        <item>Linux</item>
+    </string-array>
+
+    <string-array name="Hdd">
+        <item>250 GB</item>
+        <item>500 GB</item>
+        <item>1 TB</item>
+    </string-array>
+
+    <string-array name="Ram">
+        <item>4 GB</item>
+        <item>8 GB</item>
+        <item>16 GB</item>
+    </string-array>
+
+    <string-array name="Departamento">
+        <item>Recursos Humanos</item>
+        <item>Recursos Financieros</item>
+        <item>Gestion Tecnologica</item>
+        <item>Biblioteca</item>
+        <item>Laboratio</item>
+    </string-array>
+
+    <string-array name="Edificio">
+        <item>L</item>
+        <item>G</item>
+        <item>V</item>
+        <item>D</item>
+        <item>U</item>
+        <item>F</item>
+        <item>I</item>
+        <item>X</item>
+    </string-array>
+</resources>

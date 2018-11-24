@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Control</string>
+    <string name="FirebaseDB">https://control-bd19c.firebaseio.com/</string>
+    <string name="nodo_Equipos">Equipos</string>
+    <string name="campo_Id">id</string>
+    <string name="nodo_Asignados">Asignados</string>
+
+</resources>

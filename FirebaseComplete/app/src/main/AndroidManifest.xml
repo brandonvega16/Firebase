@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brandon.control">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/compu"
+        android:label= "Control de Equipos"
+        android:roundIcon="@drawable/compu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Add.AddEquipment"/>
+        <activity android:name=".Add.AssignEquipment"/>
+        <activity android:name=".Query.ConsultEquipment"/>
+        <activity android:name=".Query.ConsultAssign"/>
+        <activity android:name=".Query.Query"/>
+        <activity android:name=".Modify.ModifyEquipment"/>
+        <activity android:name=".Modify.ModifyAssigned"/>
+        <activity android:name=".Modify.Modify"/>
+        <activity android:name=".Delete.DeleteDevice"/>
+        <activity android:name=".Delete.DeleteAssigned"/>
+        <activity android:name=".Delete.Delete"/>
+        <activity android:name=".Query.ConsultGeneralDevice"/>
+        <activity android:name=".Query.ConsultaGeneralAssigned"/>
+        <activity android:name=".Query.ConsultGeneral"/>
+        <activity android:name=".Scanner.ScanConsultDevice"/>
+        <activity android:name=".Scanner.ScanConsultAssign"/>
+        <activity android:name=".Scanner.ScanAssingDevice"/>
+        <activity android:name=".Scanner.ScanModDevice"/>
+        <activity android:name=".Scanner.ScanModAssig"/>
+        <activity android:name=".Scanner.ScanDeleteDevice"/>
+        <activity android:name=".Scanner.ScanDeleteAssign"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
